@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherPy wind speed</title>
+  <link rel="stylesheet"  href="styles.css" >
+  <link rel="stylesheet" href="reset.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+  
+  <nav class="navbar ">
+    
+   
+      
+      
+      <button class="leftbutton" href="#"  >Latitude</button>
+   
+      <div class="dropdown">
+        <!-- Link or button to toggle dropdown -->
+      
+        
+        <button class="btn btn-light nav-item" data-toggle="dropdown" > Plots &#x25BE</button>
+        <ul class="dropdown-menu nav-item" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+          <li><a href="#">Max Temperature</a></li>
+          <li><a  href="#">Humidity</a></li>
+          <li><a  href="#">Cloudiness</a></li>
+          
+          <li><a  href="#">Wind Speed</a></li>
+        </ul>
+      </div>
+
+      
+    
+   
+      
+ 
+    <button href="#" class="btn rightbutton2">Comparison</button>
+ 
+  <button href="#" class="btn rightbutton3">Data</button>
+
+</nav>
+
+  
+   
+     
+  
+    
+ 
+    <div >
+      
+      <figure class="box-1" ></figure>
+      <figure class="box-2" >
+        <header><h1 style="color: rgb(9,154,180)">Wind Speed</h1></header>
+        
+        <hr>
+        <br>
+        <img class="image" width="500" height="400"  src="assets/images/windmap.png" alt="temperaturemap" style="float:up">
+        <p class="p1">There is no correlation between the latitude and the wind speed. The northern hemisphere and the southern hemisphere show very similar wind speed except several cities in the northern hemisphere show high wind speed close to 35 mph.</p>
+        <br>
+            
+      </figure>
+<figure class="box-3" >
+<header><h1 style="color: rgb(9, 154, 180);">Visualizations</h1></header>
+<br>
+<br>
+<br>
+<img class="image" width ="180" height="180" src="assets/images/temperaturemap.png" alt="temperaturemap" style="float:left top">
+<img class="image" width ="180" height="180" src="assets/images/cloudymap.png" alt="cloudymap" style="float:right top">
+<img class="image" width ="180" height="180" src="assets/images/humiditymap.png" alt="humiditymap" style="float:left bottom">
+<img class="image" width ="180" height="180" src="assets/images/windmap.png" alt="windmap" style="float:right bottom">
+</figure>
+    </div>
+    
+
+  </body>
