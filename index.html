@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- set head -->
 <head>
   <meta charset="UTF-8">
   <title>WeatherPy landing</title>
@@ -11,53 +11,55 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 </head>
-
+<!-- build body -->
 <body>
-  
-  <nav class="navbar ">
-    
-   
+<!-- set header -->
+ <header class="header">
+   <!-- set navbar -->
+   <nav class="navbar">
+     <a href="index.html"><button class="leftbutton" href="index.html"  >Latitude</button></a> 
+     <ul class="nav-menu">
+       <li class="nav-item">
+         <div class="dropdown">
+          <!-- Link or button to toggle dropdown -->
+           <button class="btn btn-light" data-toggle="dropdown" > Plots &#x25BE</button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+             <li><a href="Max Temperature.html">Max Temperature</a></li>
+             <li><a  href="Humidity.html">Humidity</a></li>
+             <li><a  href="Cloudiness.html">Cloudiness</a></li>
+             <li><a  href="Wind Speed.html">Wind Speed</a></li>
+            </ul>
+         </div>
+       </li>
+       <li class="nav-item">
+        <a href="Comparison.html"><button  class="btn rightbutton2 nav-item" style="color:black">Comparison</button></a>
+       </li>
+       <li class="nav-item">
+        <a href="Data.html"><button class="btn rightbutton3 nav-item" style="color:black">Data</button></a>
+       </li>
+     </ul>
+      <!-- set media query navbar -->
+      <select id="nav-select" ></select>
+      <!-- Link or button to toggle dropdown -->
+      <button class="btn equal " data-toggle="dropdown" > <span class=" wrapper "><div class="element"></div></span></button>
       
-      
-      <button class="leftbutton" href="#"  >Latitude</button>
-   
-      <div class="dropdown">
-        <!-- Link or button to toggle dropdown -->
-      
+      <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+        <li><a href="#" class="plot">Plots &#x25BE</a></li>
+        <li><a href="Max Temperature.html" class="temp">Max Temperature</a></li>
+        <li><a  href="Humidity.html" class="humi">Humidity</a></li>
+        <li><a  href="Cloudiness.html" class="clou">Cloudiness</a></li>
         
-        <button class="btn btn-light nav-item" data-toggle="dropdown" > Plots &#x25BE</button>
-        <ul class="dropdown-menu nav-item" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
-          <li><a href="#">Max Temperature</a></li>
-          <li><a  href="#">Humidity</a></li>
-          <li><a  href="#">Cloudiness</a></li>
-          
-          <li><a  href="#">Wind Speed</a></li>
-        </ul>
-      </div>
+        <li><a  href="Wind Speed.html" class="wind">Wind Speed</a></li>
+        <li><a  href="Comparison.html" class="comp">Comparison</a></li>
+        <li><a  href="Data.html" class="data">Data</a></li>
+      </ul>      
+   </nav>
+ </header>
 
-      
-    
-   
-      
- 
-    <button href="#" class="btn rightbutton2">Comparison</button>
- 
-  <button href="#" class="btn rightbutton3">Data</button>
-
-</nav>
-
-  
-   
-     
-  
-    
- 
-    <div >
-      
-      <figure class="box-1" ></figure>
-      <figure class="box-2" >
+  <div >
+    <figure class="box-1" ></figure>
+     <figure class="box-2" >
         <header><h1 style="color: rgb(9,154,180)">Summary: Latitude vs. X</h1></header>
-        
         <hr>
         <br>
         <img class="image" width="300" height="300"  src="assets/images/temperaturemap.png" alt="temperaturemap" style="float:left">
@@ -66,17 +68,17 @@
         <p class="p1">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temprature, cloiudiness, wind speed, and humidity. This site provides the source data and visualizatios created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
     
       </figure>
-<figure class="box-3" >
-<header><h1 style="color: rgb(9, 154, 180);">Visualizations</h1></header>
-<br>
-<br>
-<br>
-<img class="image" width ="180" height="180" src="assets/images/temperaturemap.png" alt="temperaturemap" style="float:left top">
-<img class="image" width ="180" height="180" src="assets/images/cloudymap.png" alt="cloudymap" style="float:right top">
-<img class="image" width ="180" height="180" src="assets/images/humiditymap.png" alt="humiditymap" style="float:left bottom">
-<img class="image" width ="180" height="180" src="assets/images/windmap.png" alt="windmap" style="float:right bottom">
-</figure>
-    </div>
+    <figure class="box-3" >
+      <header><h1 style="color: rgb(9, 154, 180);">Visualizations</h1></header>
+      <br>
+      <br>
+      <br>
+      <img class="image" width ="180" height="180" src="assets/images/temperaturemap.png" alt="temperaturemap" style="float:left top">
+      <img class="image" width ="180" height="180" src="assets/images/cloudymap.png" alt="cloudymap" style="float:right top">
+      <img class="image" width ="180" height="180" src="assets/images/humiditymap.png" alt="humiditymap" style="float:left bottom">
+      <img class="image" width ="180" height="180" src="assets/images/windmap.png" alt="windmap" style="float:right bottom">
+    </figure>
+  </div>
     
 
-  </body>
+</body>

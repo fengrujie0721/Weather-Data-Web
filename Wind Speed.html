@@ -14,40 +14,47 @@
 
 <body>
   
-  <nav class="navbar ">
-    
-   
-      
-      
-      <button class="leftbutton" href="#"  >Latitude</button>
-   
-      <div class="dropdown">
-        <!-- Link or button to toggle dropdown -->
-      
-        
-        <button class="btn btn-light nav-item" data-toggle="dropdown" > Plots &#x25BE</button>
-        <ul class="dropdown-menu nav-item" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
-          <li><a href="#">Max Temperature</a></li>
-          <li><a  href="#">Humidity</a></li>
-          <li><a  href="#">Cloudiness</a></li>
-          
-          <li><a  href="#">Wind Speed</a></li>
-        </ul>
-      </div>
-
-      
-    
-   
-      
- 
-    <button href="#" class="btn rightbutton2">Comparison</button>
- 
-  <button href="#" class="btn rightbutton3">Data</button>
-
-</nav>
-
-  
-   
+  <header class="header">
+    <!-- set navbar -->
+    <nav class="navbar">
+      <a href="index.html"><button class="leftbutton" href="index.html"  >Latitude</button></a> 
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <div class="dropdown">
+           <!-- Link or button to toggle dropdown -->
+            <button class="btn btn-light" data-toggle="dropdown" > Plots &#x25BE</button>
+             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+              <li><a href="Max Temperature.html">Max Temperature</a></li>
+              <li><a  href="Humidity.html">Humidity</a></li>
+              <li><a  href="Cloudiness.html">Cloudiness</a></li>
+              <li><a  href="Wind Speed.html">Wind Speed</a></li>
+             </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+         <a href="Comparison.html"><button  class="btn rightbutton2 nav-item" style="color:black">Comparison</button></a>
+        </li>
+        <li class="nav-item">
+         <a href="Data.html"><button class="btn rightbutton3 nav-item" style="color:black">Data</button></a>
+        </li>
+      </ul>
+       <!-- set media query navbar -->
+       <select id="nav-select" ></select>
+       <!-- Link or button to toggle dropdown -->
+       <button class="btn equal " data-toggle="dropdown" > <span class=" wrapper "><div class="element"></div></span></button>
+       
+       <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+         <li><a href="#" class="plot">Plots &#x25BE</a></li>
+         <li><a href="Max Temperature.html" class="temp">Max Temperature</a></li>
+         <li><a  href="Humidity.html" class="humi">Humidity</a></li>
+         <li><a  href="Cloudiness.html" class="clou">Cloudiness</a></li>
+         
+         <li><a  href="Wind Speed.html" class="wind">Wind Speed</a></li>
+         <li><a  href="Comparison.html" class="comp">Comparison</a></li>
+         <li><a  href="Data.html" class="data">Data</a></li>
+       </ul>      
+    </nav>
+  </header>
      
   
     
@@ -60,7 +67,7 @@
         
         <hr>
         <br>
-        <img class="image" width="500" height="400"  src="assets/images/windmap.png" alt="temperaturemap" style="float:up">
+        <img class="image" width="600" height="500"  src="assets/images/windmap.png" alt="temperaturemap" style="float:up">
         <p class="p1">There is no correlation between the latitude and the wind speed. The northern hemisphere and the southern hemisphere show very similar wind speed except several cities in the northern hemisphere show high wind speed close to 35 mph.</p>
         <br>
             

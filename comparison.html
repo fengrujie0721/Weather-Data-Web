@@ -14,37 +14,47 @@
 
 <body>
   
-  <nav class="navbar ">
-    
-   
-      
-      
-      <button class="leftbutton" href="#"  >Latitude</button>
-   
-      <div class="dropdown">
-        <!-- Link or button to toggle dropdown -->
-      
-        
-        <button class="btn btn-light nav-item" data-toggle="dropdown" > Plots &#x25BE</button>
-        <ul class="dropdown-menu nav-item" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
-          <li><a href="#">Max Temperature</a></li>
-          <li><a  href="#">Humidity</a></li>
-          <li><a  href="#">Cloudiness</a></li>
-          
-          <li><a  href="#">Wind Speed</a></li>
-        </ul>
-      </div>
-
-      
-    
-   
-      
- 
-    <button href="#" class="btn rightbutton2">Comparison</button>
- 
-  <button href="#" class="btn rightbutton3">Data</button>
-
-</nav>
+  <header class="header">
+    <!-- set navbar -->
+    <nav class="navbar">
+      <a href="index.html"><button class="leftbutton" href="index.html"  >Latitude</button></a> 
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <div class="dropdown">
+           <!-- Link or button to toggle dropdown -->
+            <button class="btn btn-light" data-toggle="dropdown" > Plots &#x25BE</button>
+             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+              <li><a href="Max Temperature.html">Max Temperature</a></li>
+              <li><a  href="Humidity.html">Humidity</a></li>
+              <li><a  href="Cloudiness.html">Cloudiness</a></li>
+              <li><a  href="Wind Speed.html">Wind Speed</a></li>
+             </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+         <a href="Comparison.html"><button  class="btn rightbutton2 nav-item" style="color:black">Comparison</button></a>
+        </li>
+        <li class="nav-item">
+         <a href="Data.html"><button class="btn rightbutton3 nav-item" style="color:black">Data</button></a>
+        </li>
+      </ul>
+       <!-- set media query navbar -->
+       <select id="nav-select" ></select>
+       <!-- Link or button to toggle dropdown -->
+       <button class="btn equal " data-toggle="dropdown" > <span class=" wrapper "><div class="element"></div></span></button>
+       
+       <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel" style="list-style-type:none;">
+         <li><a href="#" class="plot">Plots &#x25BE</a></li>
+         <li><a href="Max Temperature.html" class="temp">Max Temperature</a></li>
+         <li><a  href="Humidity.html" class="humi">Humidity</a></li>
+         <li><a  href="Cloudiness.html" class="clou">Cloudiness</a></li>
+         
+         <li><a  href="Wind Speed.html" class="wind">Wind Speed</a></li>
+         <li><a  href="Comparison.html" class="comp">Comparison</a></li>
+         <li><a  href="Data.html" class="data">Data</a></li>
+       </ul>      
+    </nav>
+  </header>
 
   
    
@@ -54,7 +64,7 @@
  
     <div >
       
-      <figure class="box-1" ></figure> 
+      <figure class="comparisonbox1" ></figure> 
       
       <figure class="comparisonbox2" >
         <h1 style="color: rgb(9, 154, 180);">Comparison: Latitude vs X</h1>
@@ -68,14 +78,14 @@
         
         <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
     
         
         
-        <h3 style="color: rgb(9, 154, 180);text-align:center">vs. Max Temperature</h3>
+        <h3 style="color: rgb(9, 154, 180);" class="text-center">vs. Max Temperature</h3>
         
        <!-- <div class="comparisonimage"> -->
-        <image href="#" class="image" width="300" height="200" src="assets/images/temperaturemap.png" alt="temperaturemap" style="float:left"></image> 
+        <a href="Max Temperature.html"><image class="image" width="400" height="250" src="assets/images/temperaturemap.png" alt="temperaturemap" ></image> </a>
       
  </div>  
     
@@ -84,26 +94,26 @@
         <!-- </figure> -->
      <!-- <figure class="comparisonbox4">    -->
    
-        <div class="col-md-4">
-        <h3 style="color: rgb(9, 154, 180);text-align:center">vs. Humidity</h3>
-        <image href="#" class="image" width="300" height="200" src="assets/images/humiditymap.png" alt="temperaturemap" style="float:left"></image>
+        <div class="col-md-6">
+        <h3 style="color: rgb(9, 154, 180);" class="text-center">vs. Humidity</h3>
+        <a href="Humidity.html"><image href="#" class="image" width="400" height="250" src="assets/images/humiditymap.png" alt="temperaturemap" ></image></a>
         
     </div>
     <!-- <figure class="comparisonbox5"> -->
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
         <br>
         <h3 style="color: rgb(9, 154, 180);text-align:center">vs. Cloudiness</h3>
-        <image href="#" class="image" width="300" height="200" src="assets/images/cloudymap.png" alt="temperaturemap" style="float:left"></image>
+        <a href="Cloudiness.html"><image href="#" class="image" width="400" height="250" src="assets/images/cloudymap.png" alt="temperaturemap" ></image></a>
         
             </div>
     <!-- <figure class="comparisonbox6"> -->
-        <div class="col-md-4">
+        <div class="col-md-6">
         <br>
         <h3 style="color: rgb(9, 154, 180);text-align:center">vs. Wind Speed</h3>
-        <image href="#" class="image" width="300" height="200" src="assets/images/windmap.png" alt="temperaturemap" style="float:left"></image>
+        <a href="Wind Speed.html"><image href="#" class="image" width="400" height="250" src="assets/images/windmap.png" alt="temperaturemap" ></image></a>
         
         </div>
 
