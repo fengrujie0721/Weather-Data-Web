@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this weather data dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 Landing page:
 
@@ -15,6 +15,16 @@ Links to Visualization pages:
 Visulization pages:
 
 ![image](https://user-images.githubusercontent.com/79819331/120378740-ccdc6b80-c2ec-11eb-912f-75dea407a208.png)
+
+![image](https://user-images.githubusercontent.com/79819331/120381065-f945b700-c2ef-11eb-819a-b2cdc4b9fffc.png)
+
+
+![image](https://user-images.githubusercontent.com/79819331/120381174-17131c00-c2f0-11eb-83ec-a0b2f62f3049.png)
+
+![image](https://user-images.githubusercontent.com/79819331/120381262-35791780-c2f0-11eb-9505-f9f668853f59.png)
+
+Links to comparison page:
+
 
 
 
