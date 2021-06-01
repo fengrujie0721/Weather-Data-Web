@@ -44,7 +44,7 @@ Data page:
 
 
 
-Small or Medium screen page:
+Small or Medium screen page using Media Query:
 
 ![image](https://user-images.githubusercontent.com/79819331/120383604-15972300-c2f3-11eb-99b2-b671a92bd2ae.png)
 
