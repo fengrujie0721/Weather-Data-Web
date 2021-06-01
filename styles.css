@@ -15,15 +15,17 @@
     font-size:20px;
     vertical-align:middle;
     justify-content:center;
-    position:relative;
-    left:1px;
+    position:absolute;
+    left:0px;
     text-decoration: none;
     text-align:center;
     text-decoration:bold;
     height:40px;
     line-height:30px;
     align-items:center;
-    font-family:sans-serif;}
+    font-family:sans-serif;
+    top:0px;
+}
     
 
 
