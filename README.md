@@ -25,6 +25,14 @@ Visulization pages:
 
 Links to comparison page:
 
+![image](https://user-images.githubusercontent.com/79819331/120381486-796c1c80-c2f0-11eb-81ce-8a61a0713baf.png)
+
+
+Comparison page:
+
+![image](https://user-images.githubusercontent.com/79819331/120381560-97d21800-c2f0-11eb-88ba-b35f6b1588c8.png)
+
+
 
 
 
