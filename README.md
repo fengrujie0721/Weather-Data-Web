@@ -23,7 +23,7 @@ Visulization pages:
 
 ![image](https://user-images.githubusercontent.com/79819331/120381262-35791780-c2f0-11eb-9505-f9f668853f59.png)
 
-Links to comparison page:
+Link to comparison page:
 
 ![image](https://user-images.githubusercontent.com/79819331/120381486-796c1c80-c2f0-11eb-81ce-8a61a0713baf.png)
 
@@ -31,6 +31,20 @@ Links to comparison page:
 Comparison page:
 
 ![image](https://user-images.githubusercontent.com/79819331/120381560-97d21800-c2f0-11eb-88ba-b35f6b1588c8.png)
+
+
+Link to data page:
+
+![image](https://user-images.githubusercontent.com/79819331/120381728-cfd95b00-c2f0-11eb-99b5-a3f2d336e274.png)
+
+Data page:
+
+
+![image](https://user-images.githubusercontent.com/79819331/120381875-feefcc80-c2f0-11eb-9960-dbb6344fc0c5.png)
+
+
+
+
 
 
 
