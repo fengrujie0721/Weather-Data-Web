@@ -44,6 +44,14 @@ Data page:
 
 
 
+Small or Medium screen page:
+
+![image](https://user-images.githubusercontent.com/79819331/120383604-15972300-c2f3-11eb-99b2-b671a92bd2ae.png)
+
+
+Small or Medium screen links:
+
+![image](https://user-images.githubusercontent.com/79819331/120383752-4414fe00-c2f3-11eb-8917-f390b0107952.png)
 
 
 
