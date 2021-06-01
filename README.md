@@ -5,3 +5,5 @@ Landing page:
 
 ![image](https://user-images.githubusercontent.com/79819331/120378120-0660a700-c2ec-11eb-9e80-e1ee82dfca34.png)
 
+Visualization pages:
+
