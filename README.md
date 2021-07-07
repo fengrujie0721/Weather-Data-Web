@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Weather Data Web
 In building this weather data dashboard, create individual pages for each plot and a means by which navigation can happen between them. These pages will contain the visualizations and their corresponding explanations. There will be a landing page, a page can see a comparison of all of the plots, and another page can view the data used to build them. Use Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
 
 Landing page:
